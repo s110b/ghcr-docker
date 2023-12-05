@@ -1,4 +1,5 @@
-FROM jekyll/jekyll:4
+FROM jvconseil/jekyll-docker
+
 
 # 更新软件包索引
 RUN apk update
