@@ -2,7 +2,7 @@ FROM jekyll/builder
 
 # 安装 libvips、ImageMagick 和其他必要的工具
 RUN apk update && \
-    apk add --no-cache vips zsh vim webp imagemagick
+    apk add --no-cache vips zsh vim  imagemagick
 
 
 
