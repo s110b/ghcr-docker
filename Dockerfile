@@ -10,7 +10,6 @@ RUN apk add --no-cache vips zsh vim
 RUN apk add --no-cache imagemagick
 
 RUN apk update
-RUN apk upgrade -u
 run echo "http://dl-cdn.alpinelinux.org/alpine/v3.3/main" >> /etc/apk/repositories
 
 RUN apk add ca-certificates ffmpeg libwebp libwebp-tools
