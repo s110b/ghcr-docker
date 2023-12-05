@@ -1,4 +1,4 @@
-FROM jekyll/jekyll:3.8
+FROM jekyll/jekyll:4
 
 # 更新软件包索引
 RUN apk update
